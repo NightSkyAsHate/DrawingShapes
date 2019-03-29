@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Cross">
+   <children>
+      <ComboBox fx:id="type" layoutX="46.0" layoutY="36.0" prefWidth="150.0" />
+      <Button fx:id="check" layoutX="247.0" layoutY="36.0" mnemonicParsing="false" text="Проверить на пересечение" />
+      <Button fx:id="close" layoutX="464.0" layoutY="36.0" mnemonicParsing="false" text="Отмена" />
+      <ComboBox fx:id="ShapeList1" layoutX="46.0" layoutY="85.0" prefWidth="150.0" />
+      <ComboBox fx:id="ShapeList2" layoutX="247.0" layoutY="85.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

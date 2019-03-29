@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="788.0" prefWidth="1041.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller">
+   <children>
+      <GridPane layoutX="852.0" layoutY="14.0" prefHeight="703.0" prefWidth="175.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="save" mnemonicParsing="false" prefHeight="169.0" prefWidth="175.0" text="Сохранить файл" GridPane.rowIndex="1" />
+            <Button fx:id="load" mnemonicParsing="false" prefHeight="260.0" prefWidth="175.0" text="Загрузить файл" GridPane.rowIndex="2" />
+            <Button fx:id="screenShot" mnemonicParsing="false" prefHeight="267.0" prefWidth="175.0" text="Сохранить изображение" GridPane.rowIndex="3" />
+            <Button fx:id="move" mnemonicParsing="false" prefHeight="344.0" prefWidth="175.0" text="Пременстить фигуру" GridPane.rowIndex="4" />
+            <Button fx:id="delete" mnemonicParsing="false" prefHeight="359.0" prefWidth="175.0" text="Удалить фигуру" GridPane.rowIndex="5" />
+            <Button fx:id="clean" mnemonicParsing="false" prefHeight="217.0" prefWidth="175.0" text="Очистить" GridPane.rowIndex="6" />
+            <Button fx:id="square" mnemonicParsing="false" prefHeight="358.0" prefWidth="175.0" text="Площадь фигуры" GridPane.rowIndex="7" />
+            <Button fx:id="perimetr" mnemonicParsing="false" prefHeight="127.0" prefWidth="175.0" text="Периметр фигуры" GridPane.rowIndex="8" />
+            <Button fx:id="cross" mnemonicParsing="false" prefHeight="88.0" prefWidth="175.0" text="Пересечение фигур" GridPane.rowIndex="9" />
+            <Button fx:id="add" mnemonicParsing="false" prefHeight="90.0" prefWidth="337.0" text="Добавить фигуру" />
+         </children>
+      </GridPane>
+      <TextField fx:id="textField" layoutX="852.0" layoutY="749.0" prefHeight="25.0" prefWidth="175.0" />
+      <Canvas fx:id="MyCanvas" height="788.0" width="769.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

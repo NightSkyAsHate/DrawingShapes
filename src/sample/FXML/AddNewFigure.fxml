@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="491.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.AddNewFigures">
+   <children>
+      <ComboBox fx:id="list" layoutX="36.0" layoutY="36.0" prefHeight="25.0" prefWidth="176.0" />
+      <Button fx:id="add" layoutX="229.0" layoutY="36.0" mnemonicParsing="false" text="Добавить" />
+      <Button fx:id="close" layoutX="316.0" layoutY="36.0" mnemonicParsing="false" text="Отмена" />
+      <AnchorPane fx:id="section" layoutX="16.0" layoutY="91.0" prefHeight="385.0" prefWidth="701.0" style="-fx-background-color: grey;">
+         <children>
+            <TextField layoutY="2.0" promptText="x1" visible="false" fx:id="x1" />
+            <TextField fx:id="y1" layoutX="149.0" layoutY="2.0" promptText="y1" visible="false" />
+            <TextField layoutY="27.0" promptText="x2" visible="false" fx:id="x2" />
+            <TextField fx:id="y2" layoutX="149.0" layoutY="27.0" promptText="y2" visible="false" />
+            <TextField fx:id="right" layoutX="552.0" layoutY="2.0" visible="false" />
+            <TextField layoutY="52.0" promptText="x3" visible="false" fx:id="x3" />
+            <TextField fx:id="y3" layoutX="149.0" layoutY="52.0" promptText="y3" visible="false" />
+            <TextField layoutY="77.0" promptText="x4" visible="false" fx:id="x4" />
+            <TextField fx:id="y4" layoutX="149.0" layoutY="77.0" promptText="y4" visible="false" />
+            <TextField layoutY="102.0" promptText="x5" visible="false" fx:id="x5" />
+            <TextField fx:id="y5" layoutX="149.0" layoutY="102.0" promptText="y5" visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
